@@ -22,8 +22,6 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import com.Server.Server;
-
 public class Launcher extends JFrame {
 
 	private static final long serialVersionUID = 1L;
