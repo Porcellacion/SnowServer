@@ -36,14 +36,6 @@ public class Launcher extends JFrame {
 	 */
 	public static void main(String[] args) {
 		
-		//test creating 
-		/*Server.addTable("Best Room");
-		Server.addTable("Some Room");
-		Server.addTable("Da Room");
-		Server.addTable("Rude Room");
-		Server.addTable("Sandstorm Room");
-		*/
-		
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
