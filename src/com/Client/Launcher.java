@@ -210,6 +210,7 @@ public class Launcher extends JFrame {
 				
 				if (succeeded) {
 					dispose();
+					new Player("kevin");
 				} else {
 					System.out.println("Unregistered Account! Please try again:");
 				}
