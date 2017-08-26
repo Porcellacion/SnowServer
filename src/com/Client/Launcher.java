@@ -44,6 +44,9 @@ public class Launcher extends JFrame {
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
+			
+				//connect to servers
+				ClientSocket.connect();
 			}
 		});
 	}
